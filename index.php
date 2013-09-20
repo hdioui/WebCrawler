@@ -7,7 +7,7 @@
 	if(isset($_GET['ac']) && $_GET['ac'] == 'update') {
 		$dom = new DOMDocument();
 		@$dom->loadHTMLFile('http://www.qq.com');
-
+		$dom->saveHTML();
 		$dom_list = $dom->getElementById('today');
 		$dom_todaytop = $dom->getElementById('todaytop');
 		$dom_title = $dom_list->getElementsByTagName('div');

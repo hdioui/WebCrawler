@@ -1,0 +1,46 @@
+body {
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 30%;
+	margin-top: -100px;
+}
+
+a {
+	text-decoration: none; /*CSS下划线效果：无下划线*/
+	font-weight: normal;
+	color: #3399FF;
+}
+
+a:active { text-decoration:blink}
+a:hover { 
+	text-decoration:underline;
+	color: #FFA07A;
+}
+a:visited { text-decoration: none;}
+
+.update-news {
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+.today-topic ,.today-top{
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.smalltitle, .title {
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
